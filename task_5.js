@@ -97,16 +97,15 @@ function calculatePower(instance) {
     console.log(`Power consumption for '${instance.name}': ${power} W`)
   }
   
-
 // Class instances
 const lamp = new NonchargeableDevice('lamp')
 const phone = new ChargeableDevice('phone')
 const laptop = new ChargeableDevice('laptop')
-const allDevices = [lamp, phone, laptop];
-
-console.log(lamp, laptop, phone)
+const allDevices = [lamp, phone, laptop]
 
 //console 
+console.log(lamp, laptop, phone)
+
 laptop.setBrand('IBM')
 laptop.charged = false
 lamp.condition = "false"
